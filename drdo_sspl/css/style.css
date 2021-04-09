@@ -1,0 +1,373 @@
+.myBg{
+    background-color: rgb(205, 205, 205);
+}
+
+#slideshowImg{
+    height: 750px;
+    object-fit: cover;
+}
+
+/* overriding an element in CSS */
+.carousel-caption{
+    color: white;
+    font-size: 20px;
+    top: 40%;
+    bottom: auto;
+}
+
+.myBanner{
+    background-color: rgb(228, 226, 226);
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.myIconSize{
+    font-size: 35px;
+}
+.myBannerSpace{
+    margin-bottom: 20px;
+}
+
+.myHr{
+    height: 1px;
+    border-top: 2px solid rgb(118, 118, 118);
+    border-radius: 10px;
+    width: 5%;
+}
+.myTrioText{
+    text-align: justify;
+    margin: 20px;
+    font-size: 18px;
+}
+
+.myQuoteImg{
+    height: 400px;
+
+    /* Photo by Michał Parzuchowski on Unsplash */
+    background-image: url("../images/quote-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    display: block;
+    color: #FFF;
+    text-align: center;
+}
+
+.noMargin{
+    margin: 0% !important;
+    padding: 0% !important;
+}
+
+.arrowDown{
+    margin-top: 25%;
+
+    animation: bounce 3s infinite;
+}
+
+@keyframes bounce{
+    0%, 20%, 50%, 80%, 100%{
+        transform: translateY(0);
+    }
+
+    40%{
+        transform: translateY(-30px);
+    }
+
+    60%{
+        transform: translateY(-15px);
+    }
+}
+
+.myWorkBg{
+    height: 300px;
+    text-align: center;
+    /* Photo by Georgie Cobbs on Unsplash */
+    background-image: url("../images/work.jpg");
+    background-size: cover;
+}
+
+.myWorkBg4{
+    height: 300px;
+    text-align: center;
+    /* Photo by Michał Kubalczyk on Unsplash */
+    background-image: url("../images/mac.jpg");
+    background-size: cover;
+}
+.myWorkBg4:hover{
+    background: rgb(22, 22, 22);
+}
+
+/* CSS Before */
+.myWorkBg:before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(180, 180, 180, 0.5);
+}
+
+.myWorkBg:hover{
+    position: initial;
+    background: rgb(212, 212, 212);
+
+}
+
+.wrapper{
+   margin-top: 40%;
+}
+
+.seeFromAnyPlace{
+    z-index: 1000;
+    color: rgb(0, 0, 0); 
+}
+.seeFromAnyPlace:hover{
+    color: rgb(116, 116, 116);
+}
+.exploreBtn{
+    z-index: 1000;
+    color: rgb(250, 250, 250); 
+}
+.exploreBtn:hover{
+    color: rgb(47, 97, 204);
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.myTestimonial{
+    text-align: center;
+}
+
+.socialMediaIcons{
+    margin: 30px;
+    font-size: 24px;
+}
+
+.noStyleType{
+    list-style-type: none;
+}
+
+#footer{
+    background-color: rgb(180, 180, 180);
+}
+
+#officeImg{
+    width: 100%;
+    height: 90%;
+}
+
+.aboutUsText{
+    text-align: justify;
+    margin: 2%;
+}
+
+.keepMargin{
+    margin: 2%;
+}
+/* Overriding a element defined by bootstrap */
+
+a:hover{
+    color: rgb(7, 27, 117);
+}
+
+.centerTxt{
+    text-align: center;
+}
+
+#web > div p{
+    text-align: center;
+    font-size: 14.5px;
+}
+#software > div p{
+    text-align: center;
+    font-size: 14.5px;
+}
+.webOne{
+    text-align: center;
+    /* Photo by José Ignacio Pompé on Unsplash */
+    background-image: url("../images/webOne-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    border-radius: 20px;
+}
+
+.webThree{
+    /* Photo by José Ignacio Pompé on Unsplash */
+    background-image: url("../images/webOne-bg.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+
+    border-radius: 20px;
+}
+
+.softTwo{
+      /* Photo by José Ignacio Pompé on Unsplash */
+      background-image: url("../images/webOne-bg.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+  
+      border-radius: 20px;
+}
+
+.myWebRow > .webOne > h6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: #FFF;
+}
+
+.myWebRow > div > h6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.myWebRow > div > a > h6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.myWebRow > div > a:hover{
+   color: #FFF;
+}
+
+
+.mySoftRow > .webOne > h6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    color: #FFF;
+}
+
+.mySoftRow > div > h6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.mySoftRow > div > a > h6{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.mySoftRow > div > a:hover{
+   color: rgb(255, 0, 0);
+}
+
+#software{
+    margin-top: 100px;
+    margin-bottom: 150px;
+}
+
+#digital {
+    margin-bottom: 40px;
+}
+
+#web{
+  /*  background-color: #E4E7EB; */
+}
+
+body{
+    /* background-color: #E4E7EB; */
+}
+
+.project{
+    height: 200px;
+    background-color: rgb(221, 221, 221);
+  
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.borderStyle{
+    margin-top: 20px;
+    border-color: rgb(207, 207, 207);
+    border-width: 1px;
+    border-style: solid;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.noRightBorder{
+    border-right-width: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.noLeftRadius{
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.curvedImg{
+    border-radius: 5px;
+}
+
+/* Media Query */
+
+/* Extra Small Devices (phones with 600px and less width) */
+
+@media only screen and (max-width: 600px){
+    /*Effects to take place when the website is viewed in mobile*/
+
+    .myTrioPic{
+        height: 100px;
+    }
+    .myTrioText{
+        font-size: 16px;
+    }
+    .marginWhenInMobile{
+        margin-left: 25%;
+    }
+    .aboutUsMobile{
+        padding-top: 20px;
+
+        /* Photo by Brandi Redd on Unsplash */
+        /*background-image: url("../images/about-us-bg.jpg");
+        background-size: cover;
+        color: rgb(20, 20, 20);*/
+    }
+
+    .myAboutBG{
+        /* Photo by Brandi Redd on Unsplash */
+        background-image: url("../images/about-us-bg.jpg");
+        background-size: cover;
+        color: #FFF;
+    }
+
+    .project{
+        margin-bottom: 40px;
+    }
+
+
+    .noRightBorder{
+        border-right-width: 1px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+
+    .noLeftRadius{
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+
+}
+
+/* Tablets and large phones, 600px and more width) */
+@media only screen and (min-width: 600px){
+
+}
+
+/* Medium Devices (Tablets in landscape mode) 768px width and more width) */
+@media only screen and (min-width: 768px){
+
+}
+
+/* Large Devices (Desktops, laptops) 992px width and more */
+@media only screen and (min-width: 992px){
+
+}
+
+/* Extra Large Devices (Large laptops, big monitors) 1200px and more */
+@media only screen and (min-width: 1200px){
+
+}
